@@ -38,8 +38,9 @@ export const Icon = styled.div`
 export const SidebarWrapper = styled.div`
     color: #fff
 `
+export const SidebarMenu = styled.div``
 
-export const SidebarLink = styled(Links)`
+export const SidebarLink = styled(LinkS)`
     display: flex;
     align-items: center;
     justify-content: center;

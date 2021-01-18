@@ -7,24 +7,30 @@ const Navbar = () => {
         <div>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/">Mc Donald's</NavLogo>
+                    <NavLogo to="/">CEL BITS</NavLogo>
                     <MobileIcon>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="">Home</NavLinks>
+                            <NavLinks to="">HOME</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="">Order History</NavLinks>
+                            <NavLinks to="">ABOUT</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="">Sign Out</NavLinks>
+                            <NavLinks to="">PROJECTS</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="">RESOURCES</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="">CONTACT US</NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <NavBtn>
+                    {/* <NavBtn>
                         <NavBtnLink to="">Checkout</NavBtnLink>
-                    </NavBtn>
+                    </NavBtn> */}
                 </NavbarContainer>
             </Nav>
         </div>
