@@ -5,17 +5,44 @@ import HeroImg from '../../imgs/hero.png';
 
 export const HeroC = styled.div`
     background: url(${HeroImg});
-    height: 750px;
+    height: 630px;
     background-repeat: no-repeat; 
     top: 0;
     z-index: 10;
     
 `
+export const Padding = styled.div`
+    padding-top: 100px;
+    @media screen and (max-width: 900px){
+        padding-top: 220px;
+    }
+   
+`
 
 export const Heading = styled.h1`
-    color: #000;
+    color: #fff;
+    font-size: 6rem;
     display: flex;
-    align-items: center;
+    align-items: start;
+    padding-left: 150px;
     text-decoration: none;
-    height: 100%;
+
+    @media screen and (max-width: 900px){
+        font-size: 4rem;
+        padding-left: 20px;
+    }
+`
+export const Subheading = styled.h2`
+    color: #fff;
+    font-size: 3.2rem;
+    display: flex;
+    align-items: start;
+    padding-left: 150px;
+    text-decoration: none;
+    padding-top: 60px;
+
+    @media screen and (max-width: 900px){
+        font-size: 2rem;
+        padding-left: 20px;
+    }
 `
