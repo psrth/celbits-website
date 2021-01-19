@@ -12,46 +12,47 @@ const Startups = () => {
                 <CardsH1>Hottest Startups on Campus</CardsH1>
                 <CardsWrapper>
                     <Card inputColor="#1155EB">
-                        <CardIcon src="../../imgs/logo1.png"/>
+                        <CardIcon />
                         <CardH2>Pepper Content</CardH2>
-                        <CardP>We host India's largest student-run startup conclave.</CardP>
+                        <CardP>Pepper is a content creation platform across text, graphic and video.</CardP>
                     </Card>
                     <Card inputColor="#FF5345">
                         <CardIcon src={Icon2}/>
-                        <CardH2>Summer at a Startup</CardH2>
-                        <CardP>Provide summer internships to BITSIANS.</CardP>
+                        <CardH2>Swiggy</CardH2>
+                        <CardP>Order food online from restaurants and get it delivered. </CardP>
                     </Card>
                     <Card inputColor="#0ED1AA">
                         <CardIcon src={Icon3}/>
-                        <CardH2>Startup Sphere</CardH2>
-                        <CardP>Promotes the spirit of entrepreneurship on campus.</CardP>
+                        <CardH2>Zomato</CardH2>
+                        <CardP>Discover over a million restaurants across United States, India, ...</CardP>
                     </Card>
                     <Card inputColor="#752F8D">
                         <CardIcon src={Icon4}/>
-                        <CardH2>Rural Entrepreneurship Division</CardH2>
-                        <CardP>Promotes rural entrepreneurship.</CardP>
+                        <CardH2>Folks</CardH2>
+                        <CardP>Meet the right people with the same interests in your vicinity.</CardP>
                     </Card>
 
-                    <Card inputColor="#1155EB">
-                        <CardIcon src="../../imgs/logo1.png"/>
-                        <CardH2>Pepper Content</CardH2>
-                        <CardP>We host India's largest student-run startup conclave.</CardP>
-                    </Card>
-                    <Card inputColor="#FF5345">
-                        <CardIcon src={Icon2}/>
-                        <CardH2>Summer at a Startup</CardH2>
-                        <CardP>Provide summer internships to BITSIANS.</CardP>
-                    </Card>
                     <Card inputColor="#0ED1AA">
-                        <CardIcon src={Icon3}/>
-                        <CardH2>Startup Sphere</CardH2>
-                        <CardP>Promotes the spirit of entrepreneurship on campus.</CardP>
+                        <CardIcon src={Icon4}/>
+                        <CardH2>Tesla Motors</CardH2>
+                        <CardP>Tesla is accelerating the world's transition to sustainable energy.</CardP>
                     </Card>
                     <Card inputColor="#752F8D">
-                        <CardIcon src={Icon4}/>
-                        <CardH2>Rural Entrepreneurship Division</CardH2>
-                        <CardP>Promotes rural entrepreneurship.</CardP>
+                        <CardIcon src="../../imgs/logo1.png"/>
+                        <CardH2>Zerodha</CardH2>
+                        <CardP>Online platform to invest in stocks, derivatives, mutual funds, and more.</CardP>
                     </Card>
+                    <Card inputColor="#1155EB">
+                        <CardIcon src={Icon2}/>
+                        <CardH2>Cure.fit</CardH2>
+                        <CardP>Get Trained In Yoga, Dance Fitness and Sports Workouts At Cult.Fit </CardP>
+                    </Card>
+                    <Card inputColor="#FF5345">
+                        <CardIcon src={Icon3}/>
+                        <CardH2>Mercedes Motorsport</CardH2>
+                        <CardP>Mercedes AMG Petronas F1 Team official merch.</CardP>
+                    </Card>
+                    
 
                 </CardsWrapper>
                 

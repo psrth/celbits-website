@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 export const CardsContainer = styled.div`
-    height: 750px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #fff;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 
     @media screen and (max-width: 768px){
         height: 100%;
@@ -29,6 +30,7 @@ export const CardsWrapper = styled.div`
     align-items: center;
     grid-gap: 20px;
     padding: 0;
+    height: 100%;
 
     @media screen and (max-width: 1000px){
         grid-template-columns: 1fr 1fr;
@@ -44,7 +46,7 @@ export const Card = styled.div`
     background: ${props => props.inputColor || "#000"};
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: between;
     align-items: center;
     border-radius: 10px;
     height: 400px;
@@ -67,6 +69,7 @@ export const CardIcon = styled.div`
 export const CardsH1 = styled.h1`
     font-size: 2.5rem;
     color: #000;
+    text-align: center;
     margin-bottom: 50px;
 
     @media screen and (max-width: 480px){

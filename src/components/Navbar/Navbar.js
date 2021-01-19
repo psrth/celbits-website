@@ -2,7 +2,7 @@ import React from 'react'
 import { animateScroll as scroll } from 'react-scroll'
 import { FaBars } from 'react-icons/fa'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, NavBtn, NavBtnLink } from '../Navbar/NavElements'
-
+import Image1 from '../../imgs/cel.png'
 
 const toggleHome = () => {
     scroll.scrollToTop();
@@ -13,7 +13,9 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav id="nav">
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>CEL BITS</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>
+                        <img width="50px" style={{ paddingBottom: '10px'}} src={Image1} />CEL BITS
+                    </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

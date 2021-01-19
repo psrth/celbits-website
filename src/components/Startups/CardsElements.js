@@ -7,8 +7,8 @@ export const CardsContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #fff;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 
     @media screen and (max-width: 768px){
         height: 100%;
@@ -46,7 +46,7 @@ export const Card = styled.div`
     background: ${props => props.inputColor || "#000"};
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;
     height: 400px;
