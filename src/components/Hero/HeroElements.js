@@ -28,7 +28,7 @@ export const Heading = styled.h1`
     text-decoration: none;
 
     @media screen and (max-width: 900px){
-        font-size: 4rem;
+        font-size: 2.8rem;
         padding-left: 20px;
     }
 `
@@ -42,7 +42,7 @@ export const Subheading = styled.h2`
     padding-top: 60px;
 
     @media screen and (max-width: 900px){
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding-left: 20px;
     }
 `

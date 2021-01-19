@@ -9,7 +9,7 @@ export const bannerOne = {
 export const bannerTwo = {
     id: 'resources',
     blueBg: false,
-    bannerHeading: 'Eager to learn? Checkout our database of curated entrepreneurship-related resources!',
+    bannerHeading: 'Eager to learn? Checkout our database of cool entrepreneurship resources!',
     bannersubHeading: null,
     bannerBtnText: 'View More!'
 }

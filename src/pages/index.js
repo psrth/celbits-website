@@ -25,10 +25,10 @@ const Home = () => {
             <Banner {...bannerOne}/>
             <Content {...homeObjOne}/>
             <Banner {...bannerTwo}/>
-            <Content {...homeObjOne}/>
-            <Banner {...bannerThree}/>
             <Cards />
+            <Banner {...bannerThree}/>
             <Content {...homeObjOne}/>
+
             <Footer />
     
             
