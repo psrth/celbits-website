@@ -6,6 +6,8 @@ import Content from '../components/Content/Content'
 import { homeObjOne } from '../components/Content/Data';
 import Banner from '../components/Banner/Banner';
 import { bannerOne, bannerTwo, bannerThree } from '../components/Banner/Data';
+import Cards from '../components/Cards/Cards';
+import Footer from '../components/Footer/Footer';
 
 
 const Home = () => {
@@ -25,7 +27,9 @@ const Home = () => {
             <Banner {...bannerTwo}/>
             <Content {...homeObjOne}/>
             <Banner {...bannerThree}/>
+            <Cards />
             <Content {...homeObjOne}/>
+            <Footer />
     
             
         </div>

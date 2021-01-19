@@ -4,7 +4,7 @@ import {HeroC, Heading, Padding, Subheading} from '../Hero/HeroElements.js'
 const Hero = () => {
     return(
         <div>
-            <HeroC>
+            <HeroC id="home">
                 <Padding></Padding>
                 <Heading>centre for</Heading>
                 <Heading>entrepreneurial</Heading>

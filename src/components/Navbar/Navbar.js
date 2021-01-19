@@ -5,7 +5,7 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavItem, NavMenu, NavLinks, 
 const Navbar = ({ toggle }) => {
     return (
         <>
-            <Nav>
+            <Nav id="nav">
                 <NavbarContainer>
                     <NavLogo to="/">CEL BITS</NavLogo>
                     <MobileIcon onClick={toggle}>
@@ -13,7 +13,7 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="hero">HOME</NavLinks>
+                            <NavLinks to="nav">HOME</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="about">ABOUT</NavLinks>
