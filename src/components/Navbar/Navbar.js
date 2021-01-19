@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-60}
+                            offset={-80}
                             >ABOUT US</NavLinks>
                         </NavItem>
                         <NavItem>
@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-60}>PROJECTS</NavLinks>
+                            offset={-80}>PROJECTS</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="resources"
@@ -41,7 +41,7 @@ const Navbar = ({ toggle }) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-60}>RESOURCES</NavLinks>
+                            offset={-80}>RESOURCES</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="startups"
@@ -49,7 +49,7 @@ const Navbar = ({ toggle }) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-60}>STARTUPS</NavLinks>
+                            offset={-80}>STARTUPS</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="contact"
@@ -57,7 +57,7 @@ const Navbar = ({ toggle }) => {
                             duration={500}
                             spy={true}
                             exact='true'
-                            offset={-60}>CONTACT US</NavLinks>
+                            offset={-80}>CONTACT US</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>

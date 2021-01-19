@@ -32,7 +32,6 @@ const Cards = () => {
                         <CardP>Promotes rural entrepreneurship.</CardP>
                     </Card>
                 </CardsWrapper>
-                <CardsH5>SJS</CardsH5>
             </CardsContainer>
         </div>
     )

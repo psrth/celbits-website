@@ -1,10 +1,10 @@
 import React from 'react'
 import {BannerContainer, BannerGrid, BannerText, BannerH, BannerSH, BannerBtnWrap, BannerBtn} from './BannerElements'
 
-const Banner = ({blueBg, bannerHeading, bannersubHeading, bannerBtnText}) => {
+const Banner = ({blueBg, bannerHeading, bannersubHeading, bannerBtnText, id}) => {
     return (
         <div>
-            <BannerContainer blueBg={blueBg}>
+            <BannerContainer blueBg={blueBg} id={id}>
                 <BannerGrid>
                     <BannerText>
                         <BannerH>{bannerHeading}</BannerH>

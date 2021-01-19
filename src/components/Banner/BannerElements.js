@@ -9,7 +9,7 @@ export const BannerContainer = styled.div`
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 1000px){
-        margin-bottom: 200px 0px;
+        height: 175px;
     }
 `
 export const BannerGrid = styled.div`
@@ -22,7 +22,6 @@ export const BannerGrid = styled.div`
     max-width: 1100px;
 
     @media screen and (max-width: 1000px){
-        margin: 100px 0px;
         flex-direction: column;
     }
 `
@@ -36,8 +35,12 @@ export const BannerH = styled.h1`
     font-size: 30px;
 
     @media screen and (max-width: 1100px){
-        font-size: 20px;
-        padding-left: 10px;
+        font-size: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        text-align: center;
 
     }
 `
@@ -46,13 +49,22 @@ export const BannerSH = styled.h1`
     font-size: 20px;
     padding-top: 6px;
     @media screen and (max-width: 1100px){
-        font-size: 14px;
-        padding-left: 10px;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
     }
 `
 export const BannerBtnWrap = styled.div`
     display: flex;
-    align-items: center;
+    
+    @media screen and (min-width: 1100px){
+        align-items: center;
+        padding-top: 10px;
+    }
 `
 
 export const BannerBtn = styled(LinkR)`

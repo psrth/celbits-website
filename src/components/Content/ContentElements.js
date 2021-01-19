@@ -4,7 +4,7 @@ export const ContentContainer = styled.div`
     color: #000;
     background: ${({lightBg}) => (lightBg ? '#fff' : '#0a0a0a')};
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 840px){
         padding: 100px 0px;
     }
 `
@@ -19,6 +19,9 @@ export const ContentWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+    @media screen and (max-width: 840px){
+        height: 100%;
+    }
 `
 
 export const ContentRow = styled.div`

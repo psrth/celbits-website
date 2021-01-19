@@ -9,11 +9,13 @@ export const CardsContainer = styled.div`
     background: #fff;
 
     @media screen and (max-width: 768px){
-        height: 1100px;
+        height: 100%;
+        padding-top: 40px;
     }
 
     @media screen and (max-width: 480px){
-        height: 1300px;
+        height: 100%;
+        padding-top: 40px;
     }
 
 `   
