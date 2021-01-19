@@ -8,6 +8,7 @@ import Banner from '../components/Banner/Banner';
 import { bannerOne, bannerTwo, bannerThree } from '../components/Banner/Data';
 import Cards from '../components/Cards/Cards';
 import Footer from '../components/Footer/Footer';
+import Startups from '../components/Startups/Cards';
 
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
             <Banner {...bannerThree}/>
             <Content {...homeObjTwo}/>
             <Banner {...bannerOne}/>
-            <Cards />
+            <Startups />
             <Banner {...bannerOne}/>
             <Content {...homeObjThree}/>
             

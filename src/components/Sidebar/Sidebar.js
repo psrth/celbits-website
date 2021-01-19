@@ -12,12 +12,40 @@ export const Sidebar = ({isOpen, toggle}) => {
 
                 <SidebarWrapper>
                     <SidebarMenu>
-                        <SidebarLink to="hero" onClick={toggle}>HOME</SidebarLink>
-                        <SidebarLink to="about" onClick={toggle}>ABOUT US</SidebarLink>
-                        <SidebarLink to="projects" onClick={toggle}>PROJECTS</SidebarLink>
-                        <SidebarLink to="resources" onClick={toggle}>RESOURCES</SidebarLink>
-                        <SidebarLink to="startups" onClick={toggle}>STARTUPS</SidebarLink>
-                        <SidebarLink to="contact" onClick={toggle}>CONTACT US</SidebarLink>
+                        <SidebarLink to="home" smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle}>HOME</SidebarLink>
+                        <SidebarLink to="about" smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle}>ABOUT US</SidebarLink>
+                        <SidebarLink to="projects" 
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
+                        offset={-80}
+                        onClick={toggle}>PROJECTS</SidebarLink>
+                        <SidebarLink to="resources" 
+                        onClick={toggle}
+                        smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}>RESOURCES</SidebarLink>
+                        <SidebarLink to="startups" smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle}>STARTUPS</SidebarLink>
+                        <SidebarLink to="contact" smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80} onClick={toggle}>CONTACT US</SidebarLink>
                     </SidebarMenu>
                 </SidebarWrapper>
             </SidebarContainer>

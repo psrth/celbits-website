@@ -6,10 +6,12 @@ import HeroImg from '../../imgs/hero.png';
 export const HeroC = styled.div`
     background: url(${HeroImg});
     height: 630px;
-    background-repeat: no-repeat; 
+    bbackground-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 0;
-    z-index: 10;
-    
+    z-index: 10; 
 `
 export const Padding = styled.div`
     padding-top: 140px;
