@@ -6,7 +6,7 @@ const Content = ({lightBg, id, imgStart, topline, heading, description, lightTex
         <div>
             <ContentContainer lightBg={lightBg} id={id}>
                 <ContentWrapper>
-                    <ContentRow imgStsrt={imgStart}>
+                    <ContentRow imgStart={imgStart}>
                         <Column1>
                         <TextWrapper>
                             <Topline darkText={darkText}>{topline}</Topline>

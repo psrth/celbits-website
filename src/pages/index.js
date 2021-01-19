@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Sidebar from '../components/Sidebar/Sidebar';
 import Hero from '../components/Hero/Hero'
 import Content from '../components/Content/Content'
-import { homeObjOne } from '../components/Content/Data';
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/Content/Data';
 import Banner from '../components/Banner/Banner';
 import { bannerOne, bannerTwo, bannerThree } from '../components/Banner/Data';
 import Cards from '../components/Cards/Cards';
@@ -27,7 +27,12 @@ const Home = () => {
             <Banner {...bannerTwo}/>
             <Cards />
             <Banner {...bannerThree}/>
-            <Content {...homeObjOne}/>
+            <Content {...homeObjTwo}/>
+            <Banner {...bannerOne}/>
+            <Cards />
+            <Banner {...bannerOne}/>
+            <Content {...homeObjThree}/>
+            
 
             <Footer />
     

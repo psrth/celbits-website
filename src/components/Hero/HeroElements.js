@@ -12,9 +12,9 @@ export const HeroC = styled.div`
     
 `
 export const Padding = styled.div`
-    padding-top: 100px;
+    padding-top: 140px;
     @media screen and (max-width: 900px){
-        padding-top: 220px;
+        padding-top: 260px;
     }
    
 `

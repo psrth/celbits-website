@@ -7,6 +7,7 @@ export const CardsContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #fff;
+    padding-bottom: 50px;
 
     @media screen and (max-width: 768px){
         height: 100%;
