@@ -9,7 +9,8 @@ export const BannerContainer = styled.div`
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 1000px){
-        height: 175px;
+        height: 100%;
+        padding: 20px;
     }
 `
 export const BannerGrid = styled.div`
@@ -23,6 +24,8 @@ export const BannerGrid = styled.div`
 
     @media screen and (max-width: 1000px){
         flex-direction: column;
+        height: 100%;
+        padding: 20px;
     }
 `
 export const BannerText = styled.div`
