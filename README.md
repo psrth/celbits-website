@@ -12,7 +12,7 @@ Alternatively, to run this project on your machine locally, follow these steps:
 find an empty directory on your machine, and `git clone https://github.com/psrth/celbits-website.git`  
 
 ### install dependencies
-`npm i` or `npm install` (please don't use yarn like a NOOB)  
+`npm i` or `npm install` (if you use yarn we can't be friends)  
 
 ### deploy on localhost
 `npm start` to open the project on a localhost deployment server  
