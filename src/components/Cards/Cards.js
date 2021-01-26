@@ -18,7 +18,7 @@ const Cards = () => {
                     </Card>
                     <Card inputColor="#FF5345">
                         <CardIcon src={Icon2}/>
-                        <CardH2>Summer at a Startup</CardH2>
+                        <CardH2>Summer in a Startup</CardH2>
                         <CardP>Provide summer internships to BITSIANS.</CardP>
                     </Card>
                     <Card inputColor="#0ED1AA">

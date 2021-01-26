@@ -6,7 +6,7 @@ const Hero = () => {
         <div>
             <HeroC id="home">
                 <Padding></Padding>
-                <Heading>centre for</Heading>
+                <Heading>center for</Heading>
                 <Heading>entrepreneurial</Heading>
                 <Heading>leadership</Heading>
                 <Subheading>BITS Pilani, Pilani Campus</Subheading>
