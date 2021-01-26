@@ -12,7 +12,7 @@ Alternatively, to run this project on your machine locally, follow these steps:
 find an empty directory on your machine, and `git clone https://github.com/psrth/celbits-website.git`  
 
 ### install dependencies
-`npm i` or `npm install` (please don't use yarn like a NOOB)  
+`npm i` or `npm install` (if you use yarn we can't be friends)  
 
 ### deploy on localhost
 `npm start` to open the project on a localhost deployment server  
@@ -23,7 +23,7 @@ find an empty directory on your machine, and `git clone https://github.com/psrth
 ### UI/UX Design
 I started by designing this website in Adobe XD. My goal was to revamp the UI/UX of the website.  While I didn't notice any major UX issues except for a slight lack of CTA's, I decided to try and redesign the website within  modern liquid and colourful design guidelines. 
 
-The version I designed was fairly similar to the what the final website looks like, and here's the link to preview the Adobe XD prototype: ![click here](https://xd.adobe.com/view/1db74a03-597f-4eeb-a4fd-99751014d458-48e4/?fullscreen).
+The version I designed was fairly similar to the what the final website looks like, and here's the link to preview the Adobe XD prototype: [click here](https://xd.adobe.com/view/1db74a03-597f-4eeb-a4fd-99751014d458-48e4/?fullscreen).
 
 ### Frontend Development
 It's all custom CSS, which is why each component has it's own directory for building the component and styling it. 
